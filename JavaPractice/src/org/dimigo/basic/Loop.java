@@ -52,8 +52,11 @@ public class Loop {
 			case 3:
 				System.out.printf(c[ran.nextInt(4)] +  "(으)로 설정되었습니다.\n");
 				break;
-			default:
+			case 9:
 				System.out.println("이제 공부하세요!\n");
+				break;
+			default:
+				System.out.println("없는 메뉴입니다!!\n");
 			}
 		} while (choice != 9);
 

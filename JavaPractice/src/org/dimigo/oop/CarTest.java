@@ -15,7 +15,7 @@ package org.dimigo.oop;
  * @author : huand
  * @version : 1.0
  */
-public class Cartest {
+public class CarTest {
 
 	/**
 	 * @param args

@@ -28,14 +28,7 @@ public class SmartPhoneTest {
 			System.out.println(s1);
 			s1.turnOn();
 			s1.pay();
-			if(s1 == s[0]){
-				SmartPhone f1 = new IPhone();
-			    f1.useSpecialFunction(f1);
-			}
-			else if(s1 == s[1]){
-				SmartPhone f2 = new Galaxy();
-			    f2.useSpecialFunction(f2);
-			}
+		    s1.useSpecialFunction(s1);
 			s1.turnOff();
 			System.out.println();
 		}

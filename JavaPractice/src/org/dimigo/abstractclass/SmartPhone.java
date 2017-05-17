@@ -42,7 +42,7 @@ public abstract class SmartPhone {
 	public abstract void pay();
 	
 	public void useSpecialFunction(){
-		if( this instanceof IPhone){
+		if(this instanceof IPhone){
 		    IPhone iphone = (IPhone)this;
 			iphone.useAirDrop();
 		}

@@ -45,10 +45,12 @@ public class SmartPhone {
 	
 	public void useSpecialFunction(SmartPhone phone){
 		if(phone instanceof IPhone){
-			((IPhone)phone).useAirDrop();
+		    IPhone iphone = (IPhone)phone;
+			iphone.useAirDrop();
 		}
 		else if(phone instanceof Galaxy){
-			((Galaxy)phone).useWirelessCharging();
+			Galaxy galaxy = (Galaxy)phone;
+			galaxy.useWirelessCharging();
 		}
 	}
 	
